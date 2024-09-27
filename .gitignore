@@ -1,18 +1,93 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
 
-# Other files and folders
-.settings/
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografía de Paisajes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+    <!-- Encabezado -->
+    <header>
+        <h1>Fotografía de Paisajes</h1>
+    </header>
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#equipo">Mi Equipo</a></li>
+            <li><a href="#video">Tutorial</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección principal -->
+    <section id="inicio">
+        <article>
+            <h2>Explorando la Belleza de la Naturaleza</h2>
+            <p>La fotografía de paisajes es una forma increíble de capturar la esencia de la naturaleza y compartir su belleza con el mundo.</p>
+        </article>
+    </section>
+
+    <!-- Galería de imágenes -->
+    <section id="galeria">
+        <h2>Galería</h2>
+        <img src="paisaje1.jpg" alt="Paisaje Montañoso" width="300">
+        <img src="paisaje2.jpg" alt="Atardecer en la playa" width="300">
+    </section>
+
+    <!-- Tabla de información -->
+    <section id="equipo">
+        <h2>Mi Equipo</h2>
+        <table>
+            <tr>
+                <th>Cámara</th>
+                <th>Lente</th>
+                <th>Accesorios</th>
+            </tr>
+            <tr>
+                <td>Cámara DSLR</td>
+                <td>50mm</td>
+                <td>Trípode</td>
+            </tr>
+            <tr>
+                <td>Cámara Mirrorless</td>
+                <td>85mm</td>
+                <td>Filtros</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Video Tutorial -->
+    <section id="video">
+        <h2>Video Tutorial</h2>
+        <video controls width="500">
+            <source src="tutorial.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </section>
+
+    <!-- Mapa con iframe -->
+    <section id="mapa">
+        <h2>Ubicación de Fotografía</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093715!2d144.9559279153106!3d-37.81720997975144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1e5b743%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2ses!4v1614884858782!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas más información o tienes alguna pregunta, ¡contáctame!</p>
+        <button>Enviar Mensaje</button>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2024 Fotografía de Paisajes. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
